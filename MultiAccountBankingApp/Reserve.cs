@@ -10,7 +10,7 @@ namespace MultiAccountBankingApp
     {
        
         //Account #
-        public  string AccountNumber { get; set; }
+        public  override string AccountNumber { get; set; }
 
         //Balance
         public override decimal Balance { get; set; } = 1500.44M;
@@ -20,7 +20,7 @@ namespace MultiAccountBankingApp
 
         //methods
 
-        internal decimal ViewBalance()
+       /*  internal decimal ViewBalance()
         {
             return Balance;
         }
@@ -57,7 +57,7 @@ namespace MultiAccountBankingApp
             Balance += deposit;
             Console.WriteLine("New balance in acct {1} is {0}", Balance, AccountNumber);
 
-        }
+        } */
 
     }
 }

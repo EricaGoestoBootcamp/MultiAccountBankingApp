@@ -43,12 +43,12 @@ namespace MultiAccountBankingApp
         //balance - withdrawal (check for overdraft)
         //first method gets user input for withdrawal amount, returns amt
         //second method does math
-        public decimal WithDrawAmount()
+        /*public decimal WithDrawAmount()
         {
             Console.WriteLine("How much to withdraw?");
             decimal withdrawAmt = decimal.Parse(Console.ReadLine());
             return withdrawAmt;
-        }
+        }*/
 
     }
 }
